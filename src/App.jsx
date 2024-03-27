@@ -1,3 +1,11 @@
+import { LightSwitch } from "./components/LightSwitch";
+import { TextLengthCounter } from "./components/TextLengthCounter";
+
 export default function App() {
-  return <div>Odpri `src/App.jsx` in prični s pisanjem svoje aplikacije!</div>;
+  return (
+    <div className="p-4">
+      <LightSwitch />
+      <TextLengthCounter />
+    </div>
+  );
 }
